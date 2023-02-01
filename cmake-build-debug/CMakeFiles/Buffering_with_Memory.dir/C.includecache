@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CLion/Buffering-with-Memory/buffer.c
+stdio.h
+-
+stdlib.h
+-
+io.h
+E:/CLion/Buffering-with-Memory/io.h
+memory.h
+E:/CLion/Buffering-with-Memory/memory.h
+buffer.h
+E:/CLion/Buffering-with-Memory/buffer.h
+
+E:/CLion/Buffering-with-Memory/buffer.h
+
+E:/CLion/Buffering-with-Memory/io.h
+
+E:/CLion/Buffering-with-Memory/memory.h
+
