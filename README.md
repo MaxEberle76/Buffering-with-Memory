@@ -1,5 +1,5 @@
 # Buffering-with-Memory
-The goal of this program is to receive a value and process it correctly according to 6 predetermined operation IDs. First, the main.c program calls the buffer.c file to get a value from the io.c file and read it into an input buffer. The input buffer uses the "malloc" function to borrow only as much memory as it needs. Next, the value is transferred into a local buffer, which also allocates memory, and the input buffer's memory is freed. The local buffer's contents are then ssessed depending on the value of its first element: 
+The goal of this program is to receive a value and process it correctly according to 6 predetermined operation IDs. First, the "main.c" program calls the "buffer.c" file to get a value from the "io.c" file and read it into an input buffer. The input buffer uses the "malloc" function to borrow only as much memory as it needs. Next, the value is transferred into a local buffer, which also allocates memory, and the input buffer's memory is freed. The local buffer's contents are then ssessed depending on the value of its first element: 
   
 0 - MIN: the minimum value in the buffer is found.  
 1 - MAX: the maximum value in the buffer is found.  
